@@ -30,8 +30,8 @@ pension_at_55 = (avg_salary * p_rate * Ttl_yrs_at_55)
 pension_at_60 = (avg_salary * p_rate * Ttl_yrs_at_60)
 pension_at_65 = (avg_salary * p_rate * Ttl_yrs_at_65)
 
-#print calculations, rounds results 
+#print calculations, rounds results to dollar amt 
 
-print("Pension at 55 years: ", pension_at_55)
-print("Pension at 60 years: ", pension_at_60)
-print("Pension at 65 years: ", pension_at_65)
+print("Pension at 55 years:$", f'{pension_at_55 : 0.2f}')
+print("Pension at 60 years:$", f'{pension_at_60 : 0.2f}')
+print("Pension at 65 years:$", f'{pension_at_65 : 0.2f}')
